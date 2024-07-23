@@ -133,11 +133,10 @@ Create REST APIs to enable remote access and management of the billing system. T
 
 ### Concurrency Control
 - **Task Queue**: A queue is used to store tasks submitted to the thread pool. Worker threads continuously fetch and execute tasks from the queue.
-- **Future and Promise**: While not explicitly used in this version, futures and promises can be integrated to handle asynchronous task results.
 
 ### Error Handling
 - **Input Validation**: The project ensures that price and quantity inputs are valid (positive numbers for price and whole numbers for quantity).
-- **Exception Handling**: Basic exception handling is implemented to manage file I/O errors, ensuring the program handles errors gracefully.
+- **Exception Handling**: Exception handling is implemented to manage file I/O errors, ensuring the program handles errors gracefully.
 
 ### Command-Line Interface (CLI)
 - **User Interaction**: The program provides a simple CLI that prompts the user to choose an action (add customer, roll back, or exit) and handles user input accordingly.
